@@ -660,14 +660,18 @@ else:
     )
 
 # ==========================================
-# ALERT
+# SECURITY ALERT SIMULATION
 # ==========================================
-st.markdown("""
-<div class='alert-warning'>
-⚠️ Unauthorized access attempt detected
-</div>
-""", unsafe_allow_html=True)
 
+# Disabled automatic unauthorized access alerts
+
+# If you want to manually show alerts later,
+# you can use:
+#
+# st.warning("Unauthorized access attempt detected")
+#
+# But currently this section does nothing.
+    
 # ==========================================
 # ADMIN DASHBOARD
 # ==========================================
